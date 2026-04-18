@@ -1,5 +1,11 @@
 * {
+    font-size: 22px;
     background-color: antiquewhite;
+}
+
+.Heading {
+    padding: 10px;
+    margin: 5px auto;
 }
 
 .Heading h1 {
@@ -8,8 +14,7 @@
     font-size: 70px;
     text-decoration: underline;
     color: rgb(233, 116, 32);
-    padding: 10px;
-    margin: 5px;
+    margin: 0px;
 }
 
 .Heading img {
@@ -17,17 +22,32 @@
     width: calc(100% / 2);
     height: auto;
     border: 2px solid black;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 .Content {
-    padding: 5px 50px;
+    padding: 5px 80px;
     font-size: 20px;
     margin: 10px 50px;
 }
 
+.Content .Panel {
+    padding: 5px 5px;
+    margin: 10px auto;
+}
+
 .Content h2{
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: underline;
     font-style: italic;
+    margin: 10px auto;
+}
+
+.Content #Description .Text {
+    padding: 5px;
+    text-justify: auto;
+}
+
+.Content #Ingredients ul {
+    margin: 10px auto;
 }
