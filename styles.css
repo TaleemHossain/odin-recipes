@@ -1,0 +1,60 @@
+* {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: green;
+    margin: orange;
+    border: red; */
+    /* outline: 2px solid red; */
+}
+
+h1,
+h2 {
+    font-weight: 800;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    text-decoration: underline;
+    color: rgb(233, 116, 32);
+    padding: 10px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 10px;
+    padding: 10px;
+    margin: 0px;
+    font-style: italic;
+}
+
+.Recipe{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Panel{
+
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    flex: 0 0 calc((100% - 20px) / 3);
+    
+}
+
+.Image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Link {
+    text-align: center;
+    font-size: 30px;
+}

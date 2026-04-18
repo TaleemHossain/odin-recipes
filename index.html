@@ -5,25 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Recipes</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <h1>ODIN RECIPES</h1>
     <h2>Food Recipes Added so far</h2>
-    <ul>
-        <li>
-            <p><a href="./recipes/burger.html">Burger</a></p>
-            <p><img src="./images/burger/burger.jpg" alt="Burger" width="200"></p>
-        </li>
-        <li>
-            <p><a href="./recipes/french-fries.html">French Fries</a></p>
-            <p><img src="./images/french-fries/french-fries.jpg" alt="French Fries" width="200"></p>
-        </li>
-        <li>
-            <p><a href="./recipes/lemonade.html">Lemonade</a></p>
-            <p><img src="./images/lemonade/lemonade.jpg" alt="Lemonade" width="200"></p>
-        </li>
-    </ul>
+    <div class="Recipe">
+        <div class="Panel">
+            <div class="Image"><img src="./images/burger/burger.jpg" alt="Burger"></div>
+            <div class="Link"><a href="./recipes/burger.html">Burger</a></div>
+        </div>
+
+        <div class="Panel">
+            <div class="Image"><img src="./images/french-fries/french-fries.jpg" alt="French Fries"></div>
+            <div class="Link"><a href="./recipes/french-fries.html">French Fries</a></div>
+        </div>
+
+        <div class="Panel">
+            <div class="Image"><img src="./images/lemonade/lemonade.jpg" alt="Lemonade"></div>
+            <div class="Link"><a href="./recipes/lemonade.html">Lemonade</a></div>
+        </div>
+    </div>
 </body>
 
 </html>

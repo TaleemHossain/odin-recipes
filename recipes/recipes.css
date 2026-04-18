@@ -1,0 +1,33 @@
+* {
+    background-color: antiquewhite;
+}
+
+.Heading h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline;
+    color: rgb(233, 116, 32);
+    padding: 10px;
+    margin: 5px;
+}
+
+.Heading img {
+    display: block;
+    width: calc(100% / 2);
+    height: auto;
+    border: 2px solid black;
+    margin: 5px auto;
+}
+
+.Content {
+    padding: 5px 50px;
+    font-size: 20px;
+    margin: 10px 50px;
+}
+
+.Content h2{
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: italic;
+}
