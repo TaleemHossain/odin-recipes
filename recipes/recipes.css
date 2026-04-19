@@ -72,10 +72,10 @@
 .Content #Steps ol li .Image{
     padding: 5px;
     margin: 2px;
-    /* display: block; */
 }
 
 .Content #Steps ol li .Image img{
     margin: 5px;
+    border: 1px solid black;
     width: calc((100% - 26px) / 2);
 }
