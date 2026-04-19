@@ -44,10 +44,38 @@
 }
 
 .Content #Description .Text {
-    padding: 5px;
-    text-justify: auto;
+    padding: 5px 15px;
+    text-align: justify;
 }
 
 .Content #Ingredients ul {
     margin: 10px auto;
+}
+
+.Content #Ingredients ul li {
+    padding: 5px;
+    margin: 2px;
+}
+
+.Content #Steps ol{
+    padding: 10px;
+    padding-left: 50px;
+    margin: 5px;
+}
+
+.Content #Steps ol li .Text{
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+}
+
+.Content #Steps ol li .Image{
+    padding: 5px;
+    margin: 2px;
+    /* display: block; */
+}
+
+.Content #Steps ol li .Image img{
+    margin: 5px;
+    width: calc((100% - 26px) / 2);
 }
